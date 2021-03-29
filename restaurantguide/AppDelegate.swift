@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  reataurantapp
+//  restaurantguide
 //
-//  Created by Matthew Mukherjee on 2021-03-28.
+//  Created by Jay madhav on 2021-03-28.
 //
 
 import UIKit
