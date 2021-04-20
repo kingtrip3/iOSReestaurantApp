@@ -93,13 +93,6 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eviva Restaurant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oI1-23-sdE">
-                                <rect key="frame" x="131" y="146" width="141" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eviva2" translatesAutoresizingMaskIntoConstraints="NO" id="thv-iT-1c4">
                                 <rect key="frame" x="81" y="194" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -167,6 +160,21 @@
                                     <segue destination="oGZ-zr-OHl" kind="show" id="tOl-bV-FzZ"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="instagram-new-logo-may-2016" translatesAutoresizingMaskIntoConstraints="NO" id="3Q8-N3-xQW">
+                                <rect key="frame" x="20" y="762" width="160" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Twitter-logo-2012" translatesAutoresizingMaskIntoConstraints="NO" id="uYf-RT-iGb">
+                                <rect key="frame" x="265" y="774" width="74" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eviva Restaurant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oI1-23-sdE">
+                                <rect key="frame" x="131" y="143" width="141" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MGz-9r-dlT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -239,16 +247,12 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Canoe Restaurant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uy8-VO-UTY">
-                                <rect key="frame" x="140" y="142" width="151" height="23"/>
+                                <rect key="frame" x="121" y="146" width="151" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="canoe" translatesAutoresizingMaskIntoConstraints="NO" id="avN-Cx-Q8c">
-                                <rect key="frame" x="90" y="190" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="location" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xti-Lg-T0y">
                                 <rect key="frame" x="43" y="419" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -312,6 +316,18 @@
                                     <segue destination="FEp-QN-IaC" kind="show" id="mS2-wY-Y6V"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="instagram-new-logo-may-2016" translatesAutoresizingMaskIntoConstraints="NO" id="oJj-nL-nOX">
+                                <rect key="frame" x="30" y="768" width="160" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Twitter-logo-2012" translatesAutoresizingMaskIntoConstraints="NO" id="Ab0-zl-7xX">
+                                <rect key="frame" x="286" y="780" width="74" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="canoe" translatesAutoresizingMaskIntoConstraints="NO" id="avN-Cx-Q8c">
+                                <rect key="frame" x="87" y="201" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EMV-9h-gky"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -423,6 +439,14 @@
                                     <segue destination="7Gk-Vz-g4X" kind="show" id="Rbb-9X-z4f"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="instagram-new-logo-may-2016" translatesAutoresizingMaskIntoConstraints="NO" id="rJS-46-NfP">
+                                <rect key="frame" x="43" y="791" width="107" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Twitter-logo-2012" translatesAutoresizingMaskIntoConstraints="NO" id="Og6-n3-9Kp">
+                                <rect key="frame" x="292" y="791" width="74" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="blM-kp-9oq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -532,15 +556,16 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="PEZ-fq-LRH"/>
         <segue reference="Cxg-I6-Igu"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="360" width="1200" height="775"/>
+        <image name="Twitter-logo-2012" width="300" height="244"/>
         <image name="canoe" width="1024" height="628"/>
         <image name="clock" catalog="system" width="128" height="121"/>
         <image name="eviva" width="1024" height="768"/>
         <image name="eviva2" width="1000" height="667"/>
+        <image name="instagram-new-logo-may-2016" width="860" height="860"/>
         <image name="location" catalog="system" width="128" height="121"/>
         <image name="phone" catalog="system" width="128" height="115"/>
         <image name="whitestar" width="820" height="197"/>

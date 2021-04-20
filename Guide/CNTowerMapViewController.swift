@@ -16,7 +16,7 @@ class CNTowerMapViewController: UIViewController {
             super.viewDidLoad()
         let annotation = MKPointAnnotation()
         annotation.coordinate = CLLocationCoordinate2D(latitude: 43.641918, longitude: -79.386360)
-        annotation.title = "Canoe"
+        annotation.title = "360 Restaurant"
         annotation.subtitle = "Upscale Restaurant with spectacular views"
         mapView.addAnnotation(annotation)
         

@@ -16,8 +16,8 @@ class EvivaMapViewController: UIViewController {
             super.viewDidLoad()
         let annotation = MKPointAnnotation()
         annotation.coordinate = CLLocationCoordinate2D(latitude: 43.641150, longitude: -79.383070)
-        annotation.title = "Canoe"
-        annotation.subtitle = "Upscale Restaurant with spectacular views"
+        annotation.title = "Eviva"
+        annotation.subtitle = "Breakfast and Lunch Restaurant"
         mapView.addAnnotation(annotation)
         
         let region = MKCoordinateRegion(center: annotation.coordinate, latitudinalMeters: 300, longitudinalMeters: 300)
