@@ -1,27 +1,23 @@
 //
-//  EvivaViewController.swift
+//  EvivaMapViewController.swift
 //  Guide
 //
-//  Created by Matthew Mukherjee on 2021-04-14.
+//  Created by Laptop on 2021-04-20.
 //
 
 import UIKit
 import MapKit
 import CoreLocation
 
-class EvivaViewController: UIViewController {
-    
-    //MARK: - IBOutlets
-    
+class EvivaMapViewController: UIViewController {
+
     @IBOutlet weak var mapView: MKMapView!
-    //eviva 43.6415° N, 79.3833° W
-    
     override func viewDidLoad() {
             super.viewDidLoad()
         let annotation = MKPointAnnotation()
         annotation.coordinate = CLLocationCoordinate2D(latitude: 43.641150, longitude: -79.383070)
-        annotation.title = "Eviva"
-        annotation.subtitle = "Breakfast and Lunch Restaurant"
+        annotation.title = "Canoe"
+        annotation.subtitle = "Upscale Restaurant with spectacular views"
         mapView.addAnnotation(annotation)
         
         let region = MKCoordinateRegion(center: annotation.coordinate, latitudinalMeters: 300, longitudinalMeters: 300)
@@ -31,3 +27,4 @@ class EvivaViewController: UIViewController {
 
 
 }
+

@@ -16,6 +16,10 @@
 		3DF2EA152627A2BF00EDA92E /* EvivaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF2EA142627A2BF00EDA92E /* EvivaViewController.swift */; };
 		3DF2EA182627A4E800EDA92E /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF2EA172627A4E800EDA92E /* GuideViewController.swift */; };
 		3DF2EA1B2627AB5F00EDA92E /* CanoeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF2EA1A2627AB5F00EDA92E /* CanoeViewController.swift */; };
+		4002E0ED262F14340092BA8B /* CNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4002E0EC262F14340092BA8B /* CNViewController.swift */; };
+		4002E0F1262F33260092BA8B /* EvivaMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4002E0F0262F33260092BA8B /* EvivaMapViewController.swift */; };
+		4002E0F4262F332E0092BA8B /* CanoeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4002E0F3262F332E0092BA8B /* CanoeMapViewController.swift */; };
+		4002E0F7262F33400092BA8B /* CNTowerMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4002E0F6262F33400092BA8B /* CNTowerMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		3DF2EA142627A2BF00EDA92E /* EvivaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvivaViewController.swift; sourceTree = "<group>"; };
 		3DF2EA172627A4E800EDA92E /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
 		3DF2EA1A2627AB5F00EDA92E /* CanoeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanoeViewController.swift; sourceTree = "<group>"; };
+		4002E0EC262F14340092BA8B /* CNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNViewController.swift; sourceTree = "<group>"; };
+		4002E0F0262F33260092BA8B /* EvivaMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvivaMapViewController.swift; sourceTree = "<group>"; };
+		4002E0F3262F332E0092BA8B /* CanoeMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanoeMapViewController.swift; sourceTree = "<group>"; };
+		4002E0F6262F33400092BA8B /* CNTowerMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNTowerMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +74,13 @@
 				3DF2EA002627975000EDA92E /* SceneDelegate.swift */,
 				3DF2EA022627975000EDA92E /* ViewController.swift */,
 				3DF2EA042627975000EDA92E /* Main.storyboard */,
+				4002E0F0262F33260092BA8B /* EvivaMapViewController.swift */,
+				4002E0F3262F332E0092BA8B /* CanoeMapViewController.swift */,
+				4002E0F6262F33400092BA8B /* CNTowerMapViewController.swift */,
 				3DF2EA1A2627AB5F00EDA92E /* CanoeViewController.swift */,
 				3DF2EA172627A4E800EDA92E /* GuideViewController.swift */,
 				3DF2EA142627A2BF00EDA92E /* EvivaViewController.swift */,
+				4002E0EC262F14340092BA8B /* CNViewController.swift */,
 				3DF2EA072627975300EDA92E /* Assets.xcassets */,
 				3DF2EA092627975300EDA92E /* LaunchScreen.storyboard */,
 				3DF2EA0C2627975300EDA92E /* Info.plist */,
@@ -146,12 +158,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4002E0F7262F33400092BA8B /* CNTowerMapViewController.swift in Sources */,
 				3DF2EA032627975000EDA92E /* ViewController.swift in Sources */,
 				3DF2E9FF2627975000EDA92E /* AppDelegate.swift in Sources */,
 				3DF2EA152627A2BF00EDA92E /* EvivaViewController.swift in Sources */,
 				3DF2EA1B2627AB5F00EDA92E /* CanoeViewController.swift in Sources */,
 				3DF2EA182627A4E800EDA92E /* GuideViewController.swift in Sources */,
+				4002E0F4262F332E0092BA8B /* CanoeMapViewController.swift in Sources */,
 				3DF2EA012627975000EDA92E /* SceneDelegate.swift in Sources */,
+				4002E0ED262F14340092BA8B /* CNViewController.swift in Sources */,
+				4002E0F1262F33260092BA8B /* EvivaMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
